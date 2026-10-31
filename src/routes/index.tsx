@@ -9,7 +9,7 @@ import { HOME_FAQ } from "@/content/faq";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { POSTS } from "@/content/posts";
 
-const HERO_BG = "https://image.tmdb.org/t/p/original/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg";
+const HERO_BG = "/hero-bg.webp";
 
 const TITLE = "RX Purple — Player IPTV Premium sem travar com 35.000+ canais em 4K";
 const DESCRIPTION =
@@ -40,7 +40,7 @@ export const Route = createFileRoute("/")({
     }),
     links: [
       { rel: "canonical", href: canonicalUrl("/") },
-      { rel: "preload", as: "image", href: HERO_BG, fetchpriority: "high", crossorigin: "anonymous" } as any,
+      { rel: "preload", as: "image", href: HERO_BG, type: "image/webp", fetchpriority: "high" } as any,
     ],
     scripts: [
       {
