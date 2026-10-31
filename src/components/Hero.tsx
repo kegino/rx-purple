@@ -8,8 +8,8 @@ export function Hero() {
       <img
         src={heroBg}
         alt="RX Purple — Player IPTV premium com filmes, séries e 35.000 canais em 4K"
-        width={2560}
-        height={1440}
+        width={1920}
+        height={1080}
         decoding="async"
         fetchPriority="high"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-center"
