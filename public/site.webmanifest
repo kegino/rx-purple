@@ -3,8 +3,8 @@
   "short_name": "RX Purple",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#090514",
-  "theme_color": "#9333ea",
+  "background_color": "#0d0b10",
+  "theme_color": "#f59e0b",
   "icons": [
     {
       "src": "/favicon-192.png",
